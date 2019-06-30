@@ -1,0 +1,123 @@
+@import 'variaveis';
+body{
+    font-family: arial, helvetica, sans-serif;
+    height: 100vh;
+    background: {
+        image: url(../images/1.jpg);
+        size: cover;
+        position: right center;
+        repeat: no-repeat;
+    }
+}
+form{
+    width: 80%;
+    height: 450px;
+    margin: 50px 40px;
+    border: 6px solid rgba(27, 29, 136, 0.2);;
+    background-color: #fff;
+    position: fixed;
+    border-radius: 5px;
+}
+input{
+    width: 80%;
+    height: 16px;
+    color: $cor-letras;
+    display: block;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 20px;
+    border: 2px solid rgba(27, 29, 136, 0.2);
+    border-radius: 5px;
+    &:hover{
+        background-color: #ccc;
+    }
+    &:focus{
+        background-color: rgba(333,333,333,.2)
+    }
+}
+select{
+    width: 88%;
+    height: 40px;
+    margin-left: 20px;
+    color: $cor-letras;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+legend{
+    display: block;
+    margin-bottom: 10px;
+    text-align: center;
+    color: $cor-letras;
+    font-size: 24px;
+}
+label{
+    margin:{
+        left: 35px;
+        bottom: 10px;
+        top: 10px;
+    }
+    display: block;
+    color: $cor-letras;
+    text-align: rigth;
+    font-size: 16px;
+}
+
+button{
+    display: block;
+    text-align: center;
+    margin: 20px auto;  
+    padding: $tamanho-p 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid rgba(255,255,255,.5);
+    color: white;
+    background-color: $cor-letras;
+    &:hover{
+        background-color: rgba(0,0,0,.5);
+    }  
+
+}
+.logo{
+    margin:{
+        top: 20px;
+        left: 130px;
+    }
+    width: 80px;
+    height: 40px;
+
+}
+@media screen and (min-width: 1024px){
+    form{
+        width: 30%;
+        height: 580px;
+        margin: 2em 30em;
+    }
+    input,select{
+        font-size: 24px;       
+    }
+    legend{
+        margin-bottom: 5px;
+        font-size: 36px;
+    }
+    label{
+        margin-top: 15px;
+        font-size: 24px;
+    }
+
+    button{
+        margin-top: 15px;
+        font-size: 24px;
+    }
+    .logo{
+        margin:{
+            top: 0px;
+            left: 170px;
+        }
+        width: 100px;
+        height: 80px;
+
+    }
+
+}

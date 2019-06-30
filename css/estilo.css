@@ -1,0 +1,104 @@
+body {
+  font-family: arial, helvetica, sans-serif;
+  height: 100vh;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat; }
+
+form {
+  width: 80%;
+  height: 450px;
+  margin: 50px 40px;
+  border: 6px solid rgba(27, 29, 136, 0.2);
+  background-color: #fff;
+  position: fixed;
+  border-radius: 5px; }
+
+input {
+  width: 80%;
+  height: 16px;
+  color: #ff7900;
+  display: block;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 16px;
+  margin-left: 20px;
+  border: 2px solid rgba(27, 29, 136, 0.2);
+  border-radius: 5px; }
+  input:hover {
+    background-color: #ccc; }
+  input:focus {
+    background-color: rgba(255, 255, 255, 0.2); }
+
+select {
+  width: 88%;
+  height: 40px;
+  margin-left: 20px;
+  color: #ff7900;
+  font-size: 16px;
+  border-radius: 5px; }
+
+legend {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ff7900;
+  font-size: 24px; }
+
+label {
+  margin-left: 35px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: block;
+  color: #ff7900;
+  text-align: rigth;
+  font-size: 16px; }
+
+button {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: white;
+  background-color: #ff7900; }
+  button:hover {
+    background-color: rgba(0, 0, 0, 0.5); }
+
+.logo {
+  margin-top: 20px;
+  margin-left: 130px;
+  width: 80px;
+  height: 40px; }
+
+@media screen and (min-width: 1024px) {
+  form {
+    width: 30%;
+    height: 580px;
+    margin: 2em 30em; }
+
+  input, select {
+    font-size: 24px; }
+
+  legend {
+    margin-bottom: 5px;
+    font-size: 36px; }
+
+  label {
+    margin-top: 15px;
+    font-size: 24px; }
+
+  button {
+    margin-top: 15px;
+    font-size: 24px; }
+
+  .logo {
+    margin-top: 0px;
+    margin-left: 170px;
+    width: 100px;
+    height: 80px; } }
+
+/*# sourceMappingURL=estilo.css.map */
